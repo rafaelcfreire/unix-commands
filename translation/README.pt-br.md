@@ -1,3 +1,8 @@
- -
+<img
+  src="../img/bash-shellshock.png"
+  width="100"
+  align="right"
+/>
 
-FIRST COMMIT
+# Comandos Unix Úteis
+Você pode tambèm ler em [Inglês](../README.md).
