@@ -1,6 +1,6 @@
 <img
   src="/img/bash-shellshock.png"
-  width="70"
+  width="100"
   align="right"
 />
 
