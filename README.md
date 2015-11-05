@@ -12,6 +12,7 @@ You can also read the [Portuguese](translation/README.pt-br.md).
 
 ## Table of Contents
 * [Home Directory Shortcut](#home-directory-shortcut)
+* [Present Working Directory(pwd)](#present-working-directory(pwd))
 
 #### Home Directory Shortcut
 In Unix systems, you can reference your home directory from anywhere you're located just typing the tilde(~) character. If you try ~ in terminal, you get the following message:
@@ -19,5 +20,13 @@ In Unix systems, you can reference your home directory from anywhere you're loca
 ```sh
 $ ~
 -bash: /Users/rafaelcfreire: is a directory
+```
+
+#### Present Working Directory(pwd)
+This command prints where you are at any moment in your file system. Go to a specific folder and type <i>pwd</i> in your terminal:
+
+```sh
+$ pwd
+/Users/rafaelcfreire/github/unix-commands
 ```
 

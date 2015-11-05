@@ -12,6 +12,7 @@ Você também pode ler em [Inglês](../README.md).
 
 ## Tabela de Conteúdo
 * [Atalho para o Diretório Home](#atalho-para-o-diretório-home)
+* [Diretório Corrente de Trabalho(pwd)](#diretório-corrente-de-trabalho(pwd))
 
 #### Atalho para o Diretório Home
 Em sistemas Unix, você pode referenciar seu diretório a partir de qualquer pasta que esteja apenas digitando o caracter til(~). Caso você teste digitar ~ no seu terminal, você terá a seguinte mensagem:
@@ -19,4 +20,12 @@ Em sistemas Unix, você pode referenciar seu diretório a partir de qualquer pas
 ```sh
 $ ~
 -bash: /Users/rafaelcfreire: is a directory
+```
+
+#### Diretório Corrente de Trabalho(pwd)
+Este comando imprime o local aonde você está em qualquer momento no seu sistema de arquivos. Vá para um diretório específico e digite <i>pwd</i> em seu terminal:
+
+```sh
+$ pwd
+/Users/rafaelcfreire/github/unix-commands
 ```
