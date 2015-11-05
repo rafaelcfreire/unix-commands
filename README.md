@@ -14,6 +14,7 @@ You can also read the [Portuguese](translation/README.pt-br.md).
 * [Home Directory Shortcut](#home-directory-shortcut)
 * [Present Working Directory](#present-working-directory)
 * [Listing Files](#listing-files)
+* [Link](#link)
 
 #### Home Directory Shortcut
 In Unix systems, you can reference your home directory from anywhere you're located just typing the tilde(~) character. If you try ~ in terminal, you get the following message:
@@ -51,3 +52,6 @@ ls [options] [names]
 ```
 
 And you can get the list of options [here](http://www.techonthenet.com/unix/basic/ls.php)
+
+#### Link
+One terrific command that is extremely useful in settings environments is the <i>ln</i>.
