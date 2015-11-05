@@ -13,6 +13,7 @@ Você também pode ler em [Inglês](../README.md).
 ## Tabela de Conteúdo
 * [Atalho para o Diretório Home](#atalho-para-o-diretório-home)
 * [Diretório Corrente de Trabalho](#diretório-corrente-de-trabalho)
+* [Listando Arquivos](#listando-arquivos)
 
 #### Atalho para o Diretório Home
 Em sistemas Unix, você pode referenciar seu diretório a partir de qualquer pasta que esteja apenas digitando o caracter til(~). Caso você teste digitar ~ no seu terminal, você terá a seguinte mensagem:
@@ -29,3 +30,24 @@ Este comando imprime o local aonde você está em qualquer momento no seu sistem
 $ pwd
 /Users/rafaelcfreire/github/unix-commands
 ```
+
+#### Listando Arquivos
+O comando <i>ls</i> mostra os arquivos e diretórios que estão abaixo do diretório corrente por padrão, caso queira ver de diretórios diferentes apenas especifique tal endereço como mostrado a seguir.
+
+Lista o diretório corrente
+```sh
+$ ls
+```
+
+Lista o diretório <i>files</i>
+```sh
+$ ls /home/personal/files
+```
+
+A sintaxe do comando <i>ls</i> é:
+```sh
+ls [options] [names]
+```
+
+E caso queira compreender melhor os parametros para <i>options</i>, uma lista está disponível [aqui](http://www.techonthenet.com/unix/basic/ls.php)
+

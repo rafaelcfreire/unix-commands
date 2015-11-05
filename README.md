@@ -13,6 +13,7 @@ You can also read the [Portuguese](translation/README.pt-br.md).
 ## Table of Contents
 * [Home Directory Shortcut](#home-directory-shortcut)
 * [Present Working Directory](#present-working-directory)
+* [Listing Files](#listing-files)
 
 #### Home Directory Shortcut
 In Unix systems, you can reference your home directory from anywhere you're located just typing the tilde(~) character. If you try ~ in terminal, you get the following message:
@@ -30,3 +31,23 @@ $ pwd
 /Users/rafaelcfreire/github/unix-commands
 ```
 
+#### Listing Files
+The <i>ls</i> command show the files and directories that are under your current directory by default, if you want to see from different directories just specify it address as shown next. 
+
+List the current directory
+```sh
+$ ls
+```
+
+List the <i>files</i> directory
+```sh
+$ ls /home/personal/files
+```
+
+The sintax of the <i>ls</i> command is:
+
+```sh
+ls [options] [names]
+```
+
+And you can get the list of options [here](http://www.techonthenet.com/unix/basic/ls.php)
