@@ -14,7 +14,7 @@ You can also read the [Portuguese](translation/README.pt-br.md).
 * [Home Directory Shortcut](#home-directory-shortcut)
 * [Present Working Directory](#present-working-directory)
 * [Listing Files](#listing-files)
-* [Link](#link)
+* [Link](#link-ln)
 
 #### Home Directory Shortcut (~)
 In Unix systems, you can reference your home directory from anywhere you're located just typing the tilde(~) character. If you try ~ in terminal, you get the following message:
