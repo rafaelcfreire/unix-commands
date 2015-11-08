@@ -54,4 +54,8 @@ ls [options] [names]
 And you can get the list of options [here](http://www.techonthenet.com/unix/basic/ls.php)
 
 #### Link
-One terrific command that is extremely useful in settings environments is the <i>ln</i>.
+One terrific command that is extremely useful in settings environments is the <i>ln</i>. It avoids duplication of folders creating links of the content you're working with. There are two types of links: <i>hard</i> and <i>symbolic</i>.
+
+##### Hard Links
+
+##### Symbolic Links
