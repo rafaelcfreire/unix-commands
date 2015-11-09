@@ -15,7 +15,8 @@ You can also read the [Portuguese](translation/README.pt-br.md) version.
 * [Present Working Directory (pwd)](#present-working-directory-pwd)
 * [Listing Files (ls)](#listing-files-ls)
 * [Link (ln)](#link-ln)
-* [Creating Directories (mkdir)]()
+* [Creating Directories (mkdir)](#creating-directories-mkdir)
+* [Copying files and directories (cp)]()
 
 #### Home Directory Shortcut (~)
 In Unix systems, you can reference your home directory from anywhere you're located just typing the tilde(~) character. If you try ~ in terminal, you get the following message:
@@ -65,7 +66,7 @@ $ ln bin/resources/README.md localReadMe.md
 ```
 
 ##### Symbolic Links
-Considering that hard link does not work for directories, you should use symbolic links for that operation. To create a symbolic link to a directory, we can use the -s flag. This can also be used for linking to files as well, not just directories. 
+Considering that hard link does not work for directories, you should use symbolic links for that operation. To create a symbolic link to a directory, we can use the -s flag. This can also be used for linking to files as well, not just directories.
 Symbolic links can also link to files or directories on other file systems. This makes symbolic links (symlinks) more powerful, and more common than the default hard links.
 
 ```sh
@@ -73,7 +74,10 @@ $ ln -s bin/resources copy
 ```
 
 #### Creating Directories (mkdir)
+This command is used to create directories, if the flag <i>-p</i> is used you can create nested directories.
 
 ```sh
-$ mkdir
+$ mkdir -p test/nested
 ```
+
+#### Copying files and directories (cp)
