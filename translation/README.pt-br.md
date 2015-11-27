@@ -53,7 +53,17 @@ ls [options] [names]
 E caso queira compreender melhor os parametros para <i>options</i>, uma lista está disponível [aqui](http://www.techonthenet.com/unix/basic/ls.php)
 
 #### Link (ln)
+Cria links para arquivos ou pastas de forma a evitar duplicação de recursos no sistema de arquivos. Existem dois tipos de links: Hard Links e links simbolicos
 
 ##### Hard Links
+<i>Hard link</i> é a opção padrão para o comando <i>ln</i> e funciona apenas para arquivos, não para diretórios. Ele cria uma cópia física e idêntica do recurso referenciado no disco. Toda vez que a fonte muda, sua cópia muda tambem.
+Note que em caso de apagar a fonte, a cópia permanece viva como um arquivo independente. No exemplo seguinte, um arquivo chamado <i>localReadMe.md</i> é criado na pasta corrente com o mesmo conteúdo de <i>bin/resources/README.md</i>.
 
+```sh
+$ ln bin/resources/README.md localReadMe.md
+```
 ##### Link Simbólico
+
+#### Creating Directories (mkdir)
+
+#### Copying files and directories (cp)
