@@ -15,6 +15,9 @@ Você também pode ler a versão em [Inglês](../README.md).
 * [Diretório Corrente de Trabalho (pwd)](#diretório-corrente-de-trabalho)
 * [Listando Arquivos (ls)](#listando-arquivos)
 * [Link (ln)](#link)
+* [Creating Directories (mkdir)](#creating-directories-mkdir)
+* [Copying files and directories (cp)](#copying-files-and-directories-cp)
+
 
 #### Atalho para o Diretório Home (~)
 Em sistemas Unix, você pode referenciar seu diretório a partir de qualquer pasta que esteja apenas digitando o caracter til(~). Caso você teste digitar ~ no seu terminal, você terá a seguinte mensagem:
@@ -63,7 +66,14 @@ Note que em caso de apagar a fonte, a cópia permanece viva como um arquivo inde
 $ ln bin/resources/README.md localReadMe.md
 ```
 ##### Link Simbólico
+Considerando que o <i>Hard Link</i> não funciona para diretórios, você deve usar links simbólicos para esta operação. Para criar um link simbólico para um diretório, podemos usar a flag -s. Este comando também pode ser usado para arquivos também, não apenas diretórios.
+Links simbólicos podem conter links para arquivos ou diretórios em outro sistema de arquivos. Isto torna links simbólicos (symlinks) mais poderosos e mais comuns que o <i>hard link</i> padrão.
 
-#### Creating Directories (mkdir)
+#### Criação de Diretórios (mkdir)
+Este comando é usado para criar diretórios, se a flag <i>-p</i> for usada, você pode criar diretórios encadeados.
+
+```sh
+$ mkdir -p test/nested
+```
 
 #### Copying files and directories (cp)

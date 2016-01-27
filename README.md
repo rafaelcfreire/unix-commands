@@ -16,7 +16,7 @@ You can also read the [Portuguese](translation/README.pt-br.md) version.
 * [Listing Files (ls)](#listing-files-ls)
 * [Link (ln)](#link-ln)
 * [Creating Directories (mkdir)](#creating-directories-mkdir)
-* [Copying files and directories (cp)]()
+* [Copying files and directories (cp)](#copying-files-and-directories-cp)
 
 #### Home Directory Shortcut (~)
 In Unix systems, you can reference your home directory from anywhere you're located just typing the tilde(~) character. If you try ~ in terminal, you get the following message:
