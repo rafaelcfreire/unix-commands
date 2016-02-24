@@ -15,8 +15,8 @@ Você também pode ler a versão em [Inglês](../README.md).
 * [Diretório Corrente de Trabalho (pwd)](#diretório-corrente-de-trabalho)
 * [Listando Arquivos (ls)](#listando-arquivos)
 * [Link (ln)](#link)
-* [Creating Directories (mkdir)](#creating-directories-mkdir)
-* [Copying files and directories (cp)](#copying-files-and-directories-cp)
+* [Criação de Diretórios (mkdir)](#criação-de-diretórios-mkdir)
+* [Copia de Arquivos e Diretórios (cp)](#copying-files-and-directories-cp)
 
 
 #### Atalho para o Diretório Home (~)
@@ -76,4 +76,4 @@ Este comando é usado para criar diretórios, se a flag <i>-p</i> for usada, voc
 $ mkdir -p test/nested
 ```
 
-#### Copying files and directories (cp)
+#### Copia de Arquivos e Diretórios (cp)
